@@ -25,7 +25,6 @@ export const searchApi = createApi({
       transformResponse: (response: ResultsResponse) => response.results,
     }),
   }),
-  tagTypes: ['Recipes'],
 })
 
 export const {

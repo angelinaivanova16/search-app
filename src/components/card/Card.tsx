@@ -1,15 +1,14 @@
 import s from './card.module.css';
 import { Link } from '@/components';
+import type { CardProps } from './card.types';
 
-type Props = {
-  artistName: string;
-  trackName: string;
-  primaryGenreName: string;
-  trackPrice: number;
-  trackViewUrl: string;
-};
-
-export const Card = ({ artistName, trackName, primaryGenreName, trackPrice, trackViewUrl }: Props) => {
+export const Card = ({
+  artistName,
+  trackName,
+  primaryGenreName,
+  trackPrice,
+  trackViewUrl
+}: CardProps) => {
 
   return (
     <div className={s.card}>
