@@ -1,0 +1,54 @@
+.labelSearch {
+  position: absolute;
+  top: 5px;
+  left: 6px;
+  width: 32px;
+  height: 32px;
+}
+
+.inputContainer {
+  position: relative;
+}
+
+.inputSearch {
+  background: #f4f9f7;
+  border: none;
+  padding: 18px 44px 8px 44px;
+}
+.inputSearch::placeholder {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #808d9a;
+  opacity: 0.8;
+}
+.inputSearch:hover {
+  border: none;
+  border-bottom: 1px solid #1aa078;
+}
+.inputSearch:focus {
+  border: 1px solid #1AA078;
+  border-radius: 5px;
+  outline: 1px solid #F5F5F5;
+  outline-offset: -3px;
+}
+
+.hidden {
+  visibility: hidden;
+  z-index: -1;
+  position: absolute;
+}
+
+.active {
+  width: 40%;
+  max-height: 300px;
+  position: absolute;
+  z-index: 1;
+  border: 2px solid #7BA7AB;
+  background-color: #FFFFFF;
+  padding: 5px;
+  overflow-y: auto;
+  margin-top: 10px;
+  opacity: 0.9;
+}
