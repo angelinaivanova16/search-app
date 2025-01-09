@@ -1,9 +1,7 @@
 import { Suspense } from 'react';
 import s from './App.module.css';
-import { CardsList, Header, MainContent } from './components'
-import { ErrorBoundary } from './components/common/ErrorBoundary.js';
-import { Preloader } from './components/common/Preloader.js';
 import { Route, Routes } from 'react-router-dom';
+import { ErrorBoundary, Preloader, CardsList, Header, MainContent } from '@/components';
 
 function App() {
 
