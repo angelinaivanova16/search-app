@@ -8,12 +8,10 @@ export type ResultsResponse = {
 export type Item = {
   trackId: number;
   artistName: string;
-  collectionName: string;
   trackName: string;
   primaryGenreName: string;
-  country: string;
   trackPrice: number;
-  currency: string;
+  trackViewUrl: string;
 };
 
 export const searchApi = createApi({

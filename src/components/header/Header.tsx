@@ -1,5 +1,5 @@
-import { Input } from '../ui/input/Input';
 import s from './header.module.css';
+import { Input } from '@/components';
 
 export const Header = () => {
   return (

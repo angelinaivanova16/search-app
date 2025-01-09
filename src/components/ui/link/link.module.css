@@ -1,0 +1,12 @@
+
+.baseLink {
+  height: 15%;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 5px 20px;
+  background: linear-gradient(90deg, #64C0A6, #159E75);
+  filter: drop-shadow(0 6px 27.8px rgba(21, 158, 117, 0.2));
+  border: 0;
+  color: #F5F5F5;
+}

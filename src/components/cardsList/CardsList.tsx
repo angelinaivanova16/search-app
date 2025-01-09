@@ -1,8 +1,7 @@
 import s from './cardsList.module.css';
-import { Preloader } from '../common/Preloader';
 import { useGetItemBySearchQuery } from '../../api/searchApi';
 import { useSearchParams } from 'react-router-dom';
-import { Card } from '../card/Card';
+import { Card, Preloader } from '@/components';
 
 export const CardsList = () => {
   const [searchParams] = useSearchParams();
@@ -32,6 +31,7 @@ export const CardsList = () => {
               trackName={item['trackName']}
               primaryGenreName={item['primaryGenreName']}
               trackPrice={item['trackPrice']}
+              trackViewUrl={item['trackViewUrl']}
             />
           ))}
         </div>
