@@ -24,9 +24,9 @@ export const CardsList = () => {
       <div className={s.wrapper}>
         <h2 className={s.searchPageTitle}>Okay... so here's what we found:</h2>
         <div className={s.searchPageWrapper}>
-          {recipes.map((item) => (
+          {recipes.map((item, index) => (
             <Card
-              key={item['trackId']}
+              key={index}
               artistName={item['artistName']}
               trackName={item['trackName']}
               primaryGenreName={item['primaryGenreName']}

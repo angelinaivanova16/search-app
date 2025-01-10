@@ -52,3 +52,11 @@
   margin-top: 10px;
   opacity: 0.9;
 }
+
+@media screen and (max-width: 500px) {
+  .inputSearch {
+    margin: 0 auto;
+    max-width: 50%;
+    margin-bottom: 15px;
+  }
+}

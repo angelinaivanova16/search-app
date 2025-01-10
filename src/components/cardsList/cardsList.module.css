@@ -17,3 +17,12 @@
 .wrapper {
   margin-bottom: 50px;
 }
+
+@media screen and (max-width: 500px) {
+  .searchPageTitle, .withoutResults {
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+  }
+}

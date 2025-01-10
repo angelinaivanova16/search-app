@@ -62,3 +62,9 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+@media screen and (max-width: 500px) {
+  :root {
+    background-color: #f4f9f7;
+  }
+}
