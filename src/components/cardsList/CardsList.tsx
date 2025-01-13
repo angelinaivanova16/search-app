@@ -11,20 +11,20 @@ export const CardsList = () => {
     data,
     isLoading,
   } = useGetItemBySearchQuery(searchName || '');
-  const recipes = data!;
+  const items = data!;
 
   if (isLoading) {
     return <Preloader />;
   }
 
-  if (recipes.length < 1) {
+  if (items.length < 1) {
     return <p className={s.withoutResults}>Nothing was found</p>
   } else {
     return (
       <div className={s.wrapper}>
         <h2 className={s.searchPageTitle}>Okay... so here's what we found:</h2>
         <div className={s.searchPageWrapper}>
-          {recipes.map((item, index) => (
+          {items.map((item, index) => (
             <Card
               key={index}
               artistName={item['artistName']}
