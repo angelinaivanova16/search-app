@@ -9,9 +9,9 @@
   filter: drop-shadow(0 6px 27.8px rgba(21, 158, 117, 0.2));
   border: 0;
   color: #F5F5F5;
-}
 
-.baseLink:hover {
-  color: #ffffff;
-  opacity: 0.7;
+  &:hover {
+    color: #ffffff;
+    opacity: 0.7;
+  }
 }

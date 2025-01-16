@@ -1,5 +1,5 @@
 import { Suspense } from 'react';
-import s from './App.module.css';
+import s from './App.module.scss';
 import { Route, Routes } from 'react-router-dom';
 import { ErrorBoundary, Preloader, CardsList, Header, MainContent } from '@/components';
 

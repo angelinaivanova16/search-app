@@ -1,4 +1,4 @@
-import s from './card.module.css';
+import s from './card.module.scss';
 import clsx from 'clsx';
 import { Link } from '@/components';
 import type { CardProps } from './card.types';

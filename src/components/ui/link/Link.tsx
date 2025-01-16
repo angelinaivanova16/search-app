@@ -1,4 +1,4 @@
-import s from './link.module.css';
+import s from './link.module.scss';
 import type { LinkProps } from './link.types';
 
 export const Link = ({

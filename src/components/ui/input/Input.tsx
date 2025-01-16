@@ -1,4 +1,4 @@
-import s from './input.module.css';
+import s from './input.module.scss';
 
 import {
   FormEvent,

@@ -1,4 +1,4 @@
-import s from './preloader.module.css';
+import s from './preloader.module.scss';
 
 import type { PreloaderProps } from './preloader.types';
 

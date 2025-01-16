@@ -1,4 +1,4 @@
-import s from './header.module.css';
+import s from './header.module.scss';
 import { Input } from '@/components';
 
 export const Header = () => {

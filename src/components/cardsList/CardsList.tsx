@@ -1,4 +1,4 @@
-import s from './cardsList.module.css';
+import s from './cardsList.module.scss';
 import { useGetItemBySearchQuery } from '../../api/searchApi';
 import { useSearchParams } from 'react-router-dom';
 import { Card, Preloader } from '@/components';

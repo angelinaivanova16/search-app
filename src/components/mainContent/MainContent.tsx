@@ -1,4 +1,4 @@
-import s from './mainContent.module.css';
+import s from './mainContent.module.scss';
 
 export const MainContent = () => {
   return (
