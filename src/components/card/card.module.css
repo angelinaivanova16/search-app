@@ -11,6 +11,20 @@
   color: #484848;
 }
 
+.activeCard {
+  margin-top: 15px;
+  padding: 5px 8px;
+  width: 195px;
+  height: 230px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+  color: #484848;
+  border: 1px solid #1aa078;
+  background-color: #d1ece4;
+}
+
 .cardTitle {
   padding-bottom: 15px;
   font-size: 17px;
